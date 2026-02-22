@@ -152,7 +152,6 @@ resetButton.addEventListener("click", () => {
     bigIcon.classList.remove("minusImg");
     localStorage.setItem("sushiCount", 0);
 })
-})
 
 const imgReset  = document.createElement("img");
 imgReset.src = "./assets/images/soysauce.png";
@@ -220,4 +219,5 @@ const footer = document.createElement("footer");
 footer.innerHTML = '<a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons" target="_blank">Sushi icons created by amonrat rungreangfangsai - Flaticon</a>';
 
 document.body.appendChild(footer);
+
 
