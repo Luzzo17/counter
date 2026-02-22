@@ -148,8 +148,10 @@ resetDiv.appendChild(resetButton);
 
 resetButton.addEventListener("click", () => {
     display.textContent = "0";
-    bigIcon.src = "./assets/images/soySauce.png";
+    bigIcon.src = "./assets/images/soysauce.png";
     bigIcon.classList.remove("minusImg");
+    localStorage.setItem("sushiCount", 0);
+})
 })
 
 const imgReset  = document.createElement("img");
@@ -216,4 +218,5 @@ minusEightButton.appendChild(imgSushi8Minus)
 
 const footer = document.createElement("footer");
 footer.innerHTML = '<a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons" target="_blank">Sushi icons created by amonrat rungreangfangsai - Flaticon</a>';
+
 document.body.appendChild(footer);
