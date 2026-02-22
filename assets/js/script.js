@@ -70,7 +70,7 @@ plusDiv.appendChild(plusFourButton);
 
 plusFourButton.addEventListener("click", () => {
     updateCounter(4)
-    bigIcon.src = "./assets/images/sushi4.png";
+    bigIcon.src = "./assets/images/sushi 4.png";
     bigIcon.classList.remove("minusImg");
 });
 
@@ -80,7 +80,7 @@ plusDiv.appendChild(plusEightButton);
 
 plusEightButton.addEventListener("click", () => {
     updateCounter(8)
-    bigIcon.src = "./assets/images/sushi8.png";
+    bigIcon.src = "./assets/images/sushi 8.png";
     bigIcon.classList.remove("minusImg");
 });
 
@@ -124,7 +124,7 @@ minusDiv.appendChild(minusFourButton);
 
 minusFourButton.addEventListener("click", () => {
     updateCounter(-4)
-    bigIcon.src = "./assets/images/sushi4.png";
+    bigIcon.src = "./assets/images/sushi 4.png";
     bigIcon.classList.add("minusImg");
 });
 
@@ -134,7 +134,7 @@ minusDiv.appendChild(minusEightButton);
 
 minusEightButton.addEventListener("click", () => {
     updateCounter(-8)
-    bigIcon.src = "./assets/images/sushi8.png";
+    bigIcon.src = "./assets/images/sushi 8.png";
     bigIcon.classList.add("minusImg");
 });
 
@@ -192,23 +192,23 @@ imgGyozaMinus.classList.add("minusImg")
 minusThreeButton.appendChild(imgGyozaMinus)
 
 const imgSushi4Plus = document.createElement("img");
-imgSushi4Plus.src = "./assets/images/sushi4.png";
+imgSushi4Plus.src = "./assets/images/sushi 4.png";
 imgSushi4Plus.alt = "Sushi 4 Icon";
 plusFourButton.appendChild(imgSushi4Plus)
 
 const imgSushi4Minus = document.createElement("img");
-imgSushi4Minus.src = "./assets/images/sushi4.png";
+imgSushi4Minus.src = "./assets/images/sushi 4.png";
 imgSushi4Minus.alt = "Sushi 4 Icon";
 imgSushi4Minus.classList.add("minusImg")
 minusFourButton.appendChild(imgSushi4Minus)
 
 const imgSushi8Plus = document.createElement("img");
-imgSushi8Plus.src = "./assets/images/sushi8.png";
+imgSushi8Plus.src = "./assets/images/sushi 8.png";
 imgSushi8Plus.alt = "Sushi 8 Icon";
 plusEightButton.appendChild(imgSushi8Plus)
 
 const imgSushi8Minus = document.createElement("img");
-imgSushi8Minus.src = "./assets/images/sushi8.png";
+imgSushi8Minus.src = "./assets/images/sushi 8.png";
 imgSushi8Minus.alt = "Sushi 8 Icon";
 imgSushi8Minus.classList.add("minusImg")
 minusEightButton.appendChild(imgSushi8Minus)
@@ -217,7 +217,4 @@ minusEightButton.appendChild(imgSushi8Minus)
 
 const footer = document.createElement("footer");
 footer.innerHTML = '<a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons" target="_blank">Sushi icons created by amonrat rungreangfangsai - Flaticon</a>';
-
 document.body.appendChild(footer);
-
-
